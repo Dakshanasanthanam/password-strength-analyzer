@@ -1,51 +1,72 @@
+# 🔐 Password Security Lab
 
-# Password Strength Analyzer
+A beginner-friendly cybersecurity project built with Python and Streamlit to explore password strength, generate passwords, and learn better password security habits.
 
-## About the Project
-Password Strength Analyzer is a beginner-friendly Python project that checks password characteristics and provides basic improvement suggestions.
+🌐 **Live Demo:** https://dakshana-psa-2026.streamlit.app/
 
-## Features
-- Checks password length
-- Detects uppercase and lowercase letters
-- Detects numbers and special characters
-- Calculates a score out of 5
-- Classifies the result as Weak, Medium, or Strong
-- Suggests improvements
-- Allows repeated password analysis
+## 📸 Screenshots
 
-## Technologies Used
-- Python 3
-- Terminal
-- Nano text editor
+### Password Analyzer
+![Password Analyzer](screenshots/password-analyzer.png)
 
-## How to Run
-1. Install Python 3.
-2. Open Terminal.
-3. Navigate to the project folder.
-4. Run the command:
+### Password Generator
+![Password Generator](screenshots/password-generator.png)
 
-   python3 password_analyzer.py
+### Security Tips
+![Security Tips](screenshots/security-tips.png)
 
-## Concepts Learned
-- Variables and Boolean values
-- User input and output
-- For loops and while loops
-- If, elif, and else conditions
-- Character checking
-- Score calculation
+## ✨ Features
 
-## Limitations
-This project uses a simple educational scoring system. It does not guarantee that a password is secure and does not check against databases of common or compromised passwords.
+- **Password Strength Analysis** — Checks password characteristics such as length, uppercase and lowercase letters, numbers, and special characters.
+- **Password Generator** — Generates random passwords using Python's `secrets` module.
+- **Security Tips** — Presents practical advice for creating and managing passwords more securely.
+- **Interactive Web Interface** — Built with Streamlit for a simple, accessible experience.
 
-## Future Improvements
-- Improve the strength scoring rules
-- Add automated tests
-- Create a graphical user interface
+## 🛠️ Technologies Used
 
-## Author
-Dakshana S
+- Python
+- Streamlit
+- Python `secrets` module
+- Git and GitHub
 
-## Project Status
-Version 1.0 - Basic features implemented and tested.
+## 💻 Run Locally
 
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/Dakshanasanthanam/password-strength-analyzer.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd password-strength-analyzer
+```
+
+### 3. Install dependencies
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+### 4. Run the application
+
+```bash
+python3 -m streamlit run app.py
+```
+
+The application will open locally in your browser.
+
+## 🎯 Project Goal
+
+This project is a hands-on introduction to Python programming, password security concepts, and building and deploying a small web application.
+
+## 👩‍💻 Author
+
+**Dakshana S.**
+
+B.Tech Cybersecurity Student | Aspiring Cybersecurity Professional
+
+---
+
+*Created as a beginner cybersecurity portfolio project for learning and practice.*
